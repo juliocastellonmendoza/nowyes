@@ -1,0 +1,392 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.general{
+    width: 80%;
+    max-width: 1000px;
+    margin: 0 auto;
+    overflow: hidden;
+
+}
+
+
+.cabecera{
+    
+    margin-top: 2rem;
+}
+
+.cabecera h1{
+
+    font-family: Playfair Display;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 8.5vh;
+    line-height: 1hv;
+    color: #000000;
+    margin-bottom: 0.5rem;
+
+}
+
+.cuaparra{
+    display: flex;
+}
+
+.cuaparra p {
+    width: 70%;
+    margin: 0;
+    font-family: Montserrat;
+    font-style: italic;
+    font-weight: 500;
+    font-size: 2.5vh;
+    line-height: 0.5hv;
+    color: #4F4F4F;
+    margin-left: 1rem;
+    margin-bottom: 2rem;
+}
+
+.cudros{
+    margin: 0;
+}
+
+.ponke img{
+    width: 90%;
+    display: block;    
+    border-radius: 1rem;
+    margin: 5%;
+    
+}
+
+.derecha{
+    margin-right: 4rem;
+    margin-top: 2rem;
+    clear: both;
+    float: right;
+    border: 0.1rem #000000;
+    padding: 2rem;
+    border-radius: 0.5rem;
+    padding-bottom: 0;
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.1);
+    width: 15%;
+}
+
+.izquierda{
+    width: 50%;
+
+}
+
+.tenedores{
+    display: flex;
+    margin-bottom: 2rem;
+    
+}
+
+.logito img{
+    width: 1.5rem;
+    margin-top: 0.3rem;
+    margin-right: 0.5rem;
+}
+
+#p1{
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 1rem;
+    line-height: 1rem;
+    text-transform: uppercase;
+    margin: 0;
+    color: #BDBDBD;
+}
+
+#p2{
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 1rem;
+    line-height: 1rem;
+    margin: 0;
+    color: #F2994A;
+}
+
+.grurelojes{
+    padding-bottom: 2rem;    
+    
+}
+
+.clock img{
+    width: 1.5rem;
+    margin-top: 1rem;
+    
+}
+
+#reloj{
+    display: flex;
+    margin-bottom: 1rem;
+    
+}
+
+
+#r1{
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 1rem;
+    line-height: 2rem;
+    text-transform: uppercase;
+    color: #BDBDBD;
+    margin: 0;
+}
+
+#r2{
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 1rem;
+    line-height: 1rem;
+    color: #333333;
+    margin: 0;
+}
+
+#texreloj{
+    margin-left: 0.5rem;
+}
+
+.primero h2{
+    font-family: Playfair Display;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 1.125rem;
+    line-height: 1rem;
+    color: #333333;
+    margin-bottom: 2rem;
+
+}
+
+.graham h3{
+    font-family: Playfair Display;
+    font-style: italic;
+    font-weight: normal;
+    font-size: 1rem;
+    line-height: 1rem;
+    color: #333333;
+    margin-bottom: 1.5rem;
+}
+
+
+
+.one{
+    display: flex;
+    margin-bottom: 0.4rem;
+}
+
+
+.one p{
+    margin: 0;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 0.875rem;
+    line-height: 1.5rem;
+    color: #333333;
+    margin-left: 1rem;
+    
+}
+
+.Cheesecake h3{
+    font-family: Playfair Display;
+    font-style: italic;
+    font-weight: normal;
+    font-size: 1.125rem;
+    line-height: 1rem;
+    color: #333333;
+    margin-top: 1rem;
+    margin-bottom: 2rem;
+}
+
+.instructions h1{
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 1.125rem;
+    line-height: 1rem;
+    color: #000000;
+    margin-top: 2rem;
+    margin-bottom: 1.5rem;
+}
+
+.dos{
+    display: flex;
+    margin-bottom: 1.5rem;
+}
+
+.cuadrosgrandes{
+    border:1px solid #F2994A;
+    padding: 0;
+    margin: 0;
+    width: 4.5rem;
+    height: 2rem;
+    background: #F2994A;
+    border-radius: 6px;
+    
+}
+
+.dos .cuadrosgrandes .num {
+    color: #FFFFFF;
+    margin-right: 1rem;
+    font-family: Playfair Display;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 1.5rem;
+    position: relative;
+    
+}
+
+.dos p{
+    margin-left: 1rem;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 0.875rem;
+    line-height: 1.5rem;
+    color: #000000;
+    margin-top: 0;
+}
+
+.source{
+    margin-top: 3rem;
+    text-align: center;
+}
+
+.source a{
+    font-family: Montserrat;
+    font-style: italic;
+    font-weight: normal;
+    font-size: 0.75rem;
+    line-height: 150%;
+    color: #BDBDBD;
+}
+
+footer{
+    margin-top: 5rem;
+    margin-bottom: 1rem;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 17px;
+    text-align: center;
+    color: #828282;
+
+}
+
+
+
+@media screen  and (max-width: 750px){
+    body{
+        border-radius: 5rem;
+        margin-left: 0.7rem;
+        margin-right: 0.7rem;
+    }
+
+    .derecha{
+        
+        margin-top: 1rem;
+        padding: 0;
+        margin-bottom: 2rem;
+        width: 80%;
+        border: 0.1rem #ffffff;
+        box-shadow: 0px 0px 20px rgb(255, 255, 255)
+    }
+
+    .izquierda{
+        width: 100%;
+    
+    }
+    .tenedores{
+        display: flex;
+                
+    }
+    
+    .logito img{
+        width: 13.54px;
+        height: 12.57px;
+        margin-top: 0.3rem;
+        margin-right: 0.5rem;
+    }
+    
+    #p1{
+        font-family: Montserrat;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 8px;
+        line-height: 10px;
+        text-transform: uppercase;
+        margin: 0;
+        color: #BDBDBD;
+    }
+    
+    #p2{
+        font-family: Montserrat;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 10px;
+        line-height: 12px;
+        margin: 0;
+        color: #F2994A;
+    }
+    
+    .grurelojes{
+        display: flex;
+        justify-content: space-between;
+        flex-grow: 1;
+        margin-right: 2rem;
+        
+    }
+    
+    .clock img{
+        width: 14.17px;
+        height: 14.17px;
+        margin-top: 0.3rem;
+        
+    }
+    
+    #reloj{
+        display: flex;
+        margin: 0;
+    }
+    
+    #r1{
+        font-family: Montserrat;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 8px;
+        line-height: 10px;
+        text-transform: uppercase;
+        color: #BDBDBD;
+        margin: 0;
+    }
+    
+    #r2{
+        font-family: Montserrat;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 10px;
+        line-height: 10px;
+        color: #333333;
+        margin: 0;
+    }
+    
+    #texreloj{
+        margin-left: 0.5rem;
+    }
+
+    .ponke img{
+        width: 90%;
+        display: block;    
+        border-radius: 1rem;
+    }
+
+
+}
+
+                    
